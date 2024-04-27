@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body{
-    background-color: rgb(196, 229, 9); 
+    background-color: hsl(51, 25%, 90%); 
 }
 
 *{
@@ -29,7 +29,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #0a0a0a;
 }
 /* all similar content styling codes */
 section{
@@ -78,7 +78,7 @@ section .title::after{
     font-size: 20px;
     color: crimson;
     padding: 0 5px;
-    background: rgb(196, 227, 24);
+    background: hsl(51, 25%, 90%);
     transform: translateX(-50%);
 }
 /* navbar styling */
