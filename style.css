@@ -540,10 +540,11 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #111111ee;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    display: flexbox;
 }
 footer span a{
     color: crimson;
@@ -552,7 +553,20 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+/* .social-item{
+    height: 30px;
+    width: 30;
+    margin: 0 5px;
+}
+.social-item img{
+    filter: grayscale(1);
+    transition: 0.3s easeo;
 
+} */
+.social-item{
+    
+    display:inline-block;
+}
 
 
 
