@@ -170,7 +170,7 @@ section .title::after{
 .home{
     display: flex;
     background: url("6.avif") no-repeat center;
-    height: 110vh;
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -629,10 +629,10 @@ footer span a:hover{
         font-size: 23px;
         padding: 10px 30px;
     }
-    #home1{
+    /* #home1{
         padding: 2rem;
         font-size: 1.5rem;
-        font-family: Arial, sans-serif;}
+        font-family: Arial, sans-serif;} */
     .max-width{
         max-width: 930px;
     }
@@ -665,6 +665,7 @@ footer span a:hover{
     .home .home-content .text-2{
         font-size: 60px;
     }
+    .home{height: 46rem;}
     .home .home-content .text-3{
         font-size: 32px;
     }
@@ -674,23 +675,24 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
-    #home1{
+    /* #home1{
         padding: 2rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-family: Arial, sans-serif;}
-}
+} */
 
 @media (max-width: 500px) {
+    .home{height: 55rem;}
     .home .home-content .text-2{
         font-size: 50px;
     }
     .home .home-content .text-3{
         font-size: 27px;
     }
-    #home1{
+    /* #home1{
         padding: 0.5rem;
-        font-size: 1.5rem;
-        font-family: Arial, sans-serif;}
+        font-size: 0.5rem;
+        font-family: Arial, sans-serif;} */
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
