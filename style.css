@@ -170,7 +170,7 @@ section .title::after{
 .home{
     display: flex;
     background: url("6.avif") no-repeat center;
-    height: 100vh;
+    height: 110vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -682,17 +682,17 @@ footer span a:hover{
 } */
 
 @media (max-width: 500px) {
-    .home{height: 55rem;}
+    .home{height: 65rem;}
     .home .home-content .text-2{
         font-size: 50px;
     }
     .home .home-content .text-3{
         font-size: 27px;
     }
-    /* #home1{
+    #home1{
         padding: 0.5rem;
         font-size: 0.5rem;
-        font-family: Arial, sans-serif;} */
+        font-family: Arial, sans-serif;}
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
