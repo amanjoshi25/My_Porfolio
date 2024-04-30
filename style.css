@@ -12,7 +12,6 @@ body{
 html{
     scroll-behavior: smooth;
 }
-
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -170,17 +169,13 @@ section .title::after{
 .home{
     display: flex;
     background: url("6.avif") no-repeat center;
-    height: 105vh;
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
-#home1{
-    padding: 2rem;
-    font-size: 1.5rem;
-    font-family: 'Ubuntu', sans-serif;}
 .home .max-width{
   width: 100%;
   display: flex;
@@ -277,7 +272,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "My Innovation";
+    content: "MyInnovation";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -629,10 +624,6 @@ footer span a:hover{
         font-size: 23px;
         padding: 10px 30px;
     }
-    /* #home1{
-        padding: 2rem;
-        font-size: 1.5rem;
-        font-family: Arial, sans-serif;} */
     .max-width{
         max-width: 930px;
     }
@@ -665,7 +656,6 @@ footer span a:hover{
     .home .home-content .text-2{
         font-size: 60px;
     }
-    .home{height: 46rem;}
     .home .home-content .text-3{
         font-size: 32px;
     }
@@ -675,62 +665,15 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
-     /* #home1{
-        padding: 2rem;
-        font-size: 1rem;
-        font-family: Arial, sans-serif;} */
-} 
-@media (max-width: 500px) {
-    /* Additional styles for devices with a maximum width of 500px */
-    .home {
-        height: 60rem;
-    }
-    .home .home-content .text-2 {
-        font-size: 50px;
-    }
-    .home .home-content .text-3 {
-        font-size: 27px;
-    }
-    /* #home1 {
-        padding: 0.5rem;
-        font-size: 0.5rem;
-        font-family: Arial, sans-serif;
-    } */
-    .about .about-content .right .text,
-    .skills .skills-content .left .text {
-        font-size: 19px;
-    }
-    .contact .right form .fields {
-        flex-direction: column;
-    }
-    .contact .right form .name,
-    .contact .right form .email {
-        margin: 0;
-    }
-    .right form .error-box {
-        width: 150px;
-    }
-    .scroll-up-btn {
-        right: 15px;
-        bottom: 15px;
-        height: 38px;
-        width: 35px;
-        font-size: 23px;
-        line-height: 38px;
-    }
 }
-/* @media (max-width: 500px) {
-    .home{height: 55rem;}
+
+@media (max-width: 500px) {
     .home .home-content .text-2{
         font-size: 50px;
     }
     .home .home-content .text-3{
         font-size: 27px;
     }
-    #home1{
-        padding: 0.5rem;
-        font-size: 0.5rem;
-        font-family: Arial, sans-serif;}
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
@@ -753,4 +696,4 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-} */
+}
