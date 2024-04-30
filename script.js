@@ -2,7 +2,7 @@ const textsToType = [
   "Student@LPU",
   "Web Developer",
   "Coder",
-  "Enthusiastic"
+  "Freelancer"
 ];
 let textIndex = 0;
 let charIndex = 0;
@@ -87,4 +87,9 @@ $('.carousel').owlCarousel({
       nav: false
     }
   }
+});
+//context menu script
+document.addEventListener("contextmenu", function(event) {
+  event.preventDefault(); // Prevent the default context menu from appearing
+  alert("You are not Authorized.");
 });
