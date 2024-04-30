@@ -170,7 +170,7 @@ section .title::after{
 .home{
     display: flex;
     background: url("6.avif") no-repeat center;
-    height: 110vh;
+    height: 105vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -180,7 +180,7 @@ section .title::after{
 #home1{
     padding: 2rem;
     font-size: 1.5rem;
-    font-family: Arial, sans-serif;}
+    font-family: 'Ubuntu', sans-serif;}
 .home .max-width{
   width: 100%;
   display: flex;
@@ -675,14 +675,14 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
-    /* #home1{
+     /* #home1{
         padding: 2rem;
         font-size: 1rem;
-        font-family: Arial, sans-serif;}
-} */
+        font-family: Arial, sans-serif;} */
+} 
 
 @media (max-width: 500px) {
-    .home{height: 65rem;}
+    .home{height: 55rem;}
     .home .home-content .text-2{
         font-size: 50px;
     }
