@@ -286,7 +286,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: rgba(14, 13, 13, 0.499);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -413,15 +413,23 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
+    /* height: 350px; */
+    width: 320px;
     object-fit: cover;
     border-radius: 10%;
     border: 5px solid crimson;
+    overflow: hidden;
     transition: all 0.3s ease;
+    /* transition: transform 0.3s ease; */
 }
+.skill-img{
+    height: 320px;
+
+}
+
 .teams .carousel .card:hover img{
     border-color: #fff;
+    transform: scale(1);
 }
 .owl-dots{
     text-align: center;

@@ -89,7 +89,7 @@ $('.carousel').owlCarousel({
   }
 });
 //context menu script
-document.addEventListener("contextmenu", function(event) {
-  event.preventDefault(); // Prevent the default context menu from appearing
-  alert("You are not Authorized.");
-});
+// document.addEventListener("contextmenu", function(event) {
+//   event.preventDefault(); // Prevent the default context menu from appearing
+//   alert("You are not Authorized.");
+// });
