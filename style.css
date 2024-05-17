@@ -256,6 +256,13 @@ section .title::after {
     color: crimson;
     background: none;
 }
+.home .home-content #home1{
+    margin-top: 10px;
+    line-height: 1.5;
+    display: flex;
+    font-weight: 15;
+
+}
 
 /* about section styling */
 .about .title::after {
@@ -324,7 +331,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
     background: #111;
-    content: "My Innovation";
+    content: "Innovation";
 }
 
 .services .serv-content .card {
@@ -376,19 +383,21 @@ section .title::after {
 }
 
 .skills .skills-content.image-container {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
     column-gap: 25px;
     grid-gap: 15px; /* Adjust the gap between images */
+    justify-content: center;
  }
 .image-container img {
     width: 25%; /* Make images fill the grid cells */
     height: auto; /* Maintain aspect ratio */
     transition: transform 0.3s ease; /* Add smooth transition on hover */
+    justify-content: center;
 }
 
 .image-container img:hover {
-    transform: scale(1.1); /* Scale up the image on hover */
+    transform: scale(1.5); /* Scale up the image on hover */
 }
 
 .skills .skills-content .left a {
@@ -427,7 +436,7 @@ section .title::after {
 
 .skills .skills-content .right .line {
     height: 5px;
-    width: 100%;
+    width: 80%;
     background: lightgrey;
     position: relative;
 }
@@ -466,7 +475,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-    content: "My Achivements";
+    content: "Achivements";
 }
 
 .teams .carousel .card {
@@ -820,10 +829,24 @@ footer span a:hover {
     .home .home-content .text-3 {
         font-size: 27px;
     }
+    .home .home-content #home1{
+        margin-top: 8px;
+        line-height: 1.2;
+        font-size: 6;
+        
+    
+    }
+    
 
     .about .about-content .right .text,
     .skills .skills-content .left .text {
-        font-size: 19px;
+        font-size: 15px;
+    }
+    .skills .skills-content.image-container{justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4s, 1fr); /* Adjust the number of columns as needed */
+        column-gap: 15px;
+        grid-gap: 15px; /* Adjust the gap between images */
     }
 
     .contact .right form .fields {
